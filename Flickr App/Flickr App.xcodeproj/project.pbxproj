@@ -7,20 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		712DD3C428F3F99C00D7246F /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712DD3C228F3F99C00D7246F /* AuthViewController.swift */; };
+		712DD3C528F3F99C00D7246F /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712DD3C328F3F99C00D7246F /* AuthViewController.xib */; };
+		712DD3C828F3F9B400D7246F /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712DD3C628F3F9B400D7246F /* RecentViewController.swift */; };
+		712DD3C928F3F9B400D7246F /* RecentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712DD3C728F3F9B400D7246F /* RecentViewController.xib */; };
+		712DD3CC28F3F9C800D7246F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712DD3CA28F3F9C800D7246F /* SearchViewController.swift */; };
+		712DD3CD28F3F9C800D7246F /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712DD3CB28F3F9C800D7246F /* SearchViewController.xib */; };
+		712DD3D028F3F9E000D7246F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712DD3CE28F3F9E000D7246F /* ProfileViewController.swift */; };
+		712DD3D128F3F9E000D7246F /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712DD3CF28F3F9E000D7246F /* ProfileViewController.xib */; };
 		71AD87C728F34B3800654189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AD87C628F34B3800654189 /* AppDelegate.swift */; };
 		71AD87C928F34B3800654189 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AD87C828F34B3800654189 /* SceneDelegate.swift */; };
-		71AD87CB28F34B3800654189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AD87CA28F34B3800654189 /* ViewController.swift */; };
-		71AD87CE28F34B3800654189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AD87CC28F34B3800654189 /* Main.storyboard */; };
+		71AD87CB28F34B3800654189 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AD87CA28F34B3800654189 /* MainTabBarViewController.swift */; };
 		71AD87D028F34B3900654189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71AD87CF28F34B3900654189 /* Assets.xcassets */; };
 		71AD87D328F34B3900654189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AD87D128F34B3900654189 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		712DD3C228F3F99C00D7246F /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		712DD3C328F3F99C00D7246F /* AuthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
+		712DD3C628F3F9B400D7246F /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
+		712DD3C728F3F9B400D7246F /* RecentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentViewController.xib; sourceTree = "<group>"; };
+		712DD3CA28F3F9C800D7246F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		712DD3CB28F3F9C800D7246F /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		712DD3CE28F3F9E000D7246F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		712DD3CF28F3F9E000D7246F /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		71AD87C328F34B3800654189 /* Flickr App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flickr App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AD87C628F34B3800654189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71AD87C828F34B3800654189 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71AD87CA28F34B3800654189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		71AD87CD28F34B3800654189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71AD87CA28F34B3800654189 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		71AD87CF28F34B3900654189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71AD87D228F34B3900654189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71AD87D428F34B3900654189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,8 +72,6 @@
 			children = (
 				71AD87DB28F34B8000654189 /* App */,
 				71AD87DA28F34B7D00654189 /* Screens */,
-				71AD87CA28F34B3800654189 /* ViewController.swift */,
-				71AD87CC28F34B3800654189 /* Main.storyboard */,
 			);
 			path = "Flickr App";
 			sourceTree = "<group>";
@@ -67,6 +79,11 @@
 		71AD87DA28F34B7D00654189 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				71AD87CA28F34B3800654189 /* MainTabBarViewController.swift */,
+				71D6D42D28F407A40058C267 /* AuthScreen */,
+				71D6D42E28F408C00058C267 /* RecentScreen */,
+				71D6D42F28F408CE0058C267 /* SearchScreen */,
+				71D6D43028F408D90058C267 /* ProfileScreen */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -81,6 +98,42 @@
 				71AD87D428F34B3900654189 /* Info.plist */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		71D6D42D28F407A40058C267 /* AuthScreen */ = {
+			isa = PBXGroup;
+			children = (
+				712DD3C228F3F99C00D7246F /* AuthViewController.swift */,
+				712DD3C328F3F99C00D7246F /* AuthViewController.xib */,
+			);
+			path = AuthScreen;
+			sourceTree = "<group>";
+		};
+		71D6D42E28F408C00058C267 /* RecentScreen */ = {
+			isa = PBXGroup;
+			children = (
+				712DD3C628F3F9B400D7246F /* RecentViewController.swift */,
+				712DD3C728F3F9B400D7246F /* RecentViewController.xib */,
+			);
+			path = RecentScreen;
+			sourceTree = "<group>";
+		};
+		71D6D42F28F408CE0058C267 /* SearchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				712DD3CA28F3F9C800D7246F /* SearchViewController.swift */,
+				712DD3CB28F3F9C800D7246F /* SearchViewController.xib */,
+			);
+			path = SearchScreen;
+			sourceTree = "<group>";
+		};
+		71D6D43028F408D90058C267 /* ProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				712DD3CE28F3F9E000D7246F /* ProfileViewController.swift */,
+				712DD3CF28F3F9E000D7246F /* ProfileViewController.xib */,
+			);
+			path = ProfileScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +194,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712DD3D128F3F9E000D7246F /* ProfileViewController.xib in Resources */,
 				71AD87D328F34B3900654189 /* LaunchScreen.storyboard in Resources */,
+				712DD3C928F3F9B400D7246F /* RecentViewController.xib in Resources */,
+				712DD3C528F3F99C00D7246F /* AuthViewController.xib in Resources */,
+				712DD3CD28F3F9C800D7246F /* SearchViewController.xib in Resources */,
 				71AD87D028F34B3900654189 /* Assets.xcassets in Resources */,
-				71AD87CE28F34B3800654189 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +210,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71AD87CB28F34B3800654189 /* ViewController.swift in Sources */,
+				712DD3CC28F3F9C800D7246F /* SearchViewController.swift in Sources */,
+				712DD3C428F3F99C00D7246F /* AuthViewController.swift in Sources */,
+				712DD3C828F3F9B400D7246F /* RecentViewController.swift in Sources */,
+				71AD87CB28F34B3800654189 /* MainTabBarViewController.swift in Sources */,
+				712DD3D028F3F9E000D7246F /* ProfileViewController.swift in Sources */,
 				71AD87C728F34B3800654189 /* AppDelegate.swift in Sources */,
 				71AD87C928F34B3800654189 /* SceneDelegate.swift in Sources */,
 			);
@@ -163,14 +223,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		71AD87CC28F34B3800654189 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71AD87CD28F34B3800654189 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		71AD87D128F34B3900654189 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -232,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -286,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -305,12 +357,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FAHJ57W2W9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Flickr App/Info.plist";
+				INFOPLIST_FILE = "Flickr App/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,12 +385,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FAHJ57W2W9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Flickr App/Info.plist";
+				INFOPLIST_FILE = "Flickr App/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
