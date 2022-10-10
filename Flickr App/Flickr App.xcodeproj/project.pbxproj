@@ -28,6 +28,12 @@
 		712DD3D128F3F9E000D7246F /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712DD3CF28F3F9E000D7246F /* ProfileViewController.xib */; };
 		7137B9E828F4472700E46218 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7137B9E628F4472700E46218 /* SingUpViewController.swift */; };
 		7137B9E928F4472700E46218 /* SingUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7137B9E728F4472700E46218 /* SingUpViewController.xib */; };
+		715E16F128F485830001FF53 /* RecentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715E16EF28F485830001FF53 /* RecentTableViewCell.swift */; };
+		715E16F228F485830001FF53 /* RecentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715E16F028F485830001FF53 /* RecentTableViewCell.xib */; };
+		715E16F628F4A29A0001FF53 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715E16F428F4A29A0001FF53 /* SearchCollectionViewCell.swift */; };
+		715E16F728F4A29A0001FF53 /* SearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715E16F528F4A29A0001FF53 /* SearchCollectionViewCell.xib */; };
+		715E16FB28F4AD9C0001FF53 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715E16F928F4AD9C0001FF53 /* ProfileCollectionViewCell.swift */; };
+		715E16FC28F4AD9C0001FF53 /* ProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715E16FA28F4AD9C0001FF53 /* ProfileCollectionViewCell.xib */; };
 		71AD87C728F34B3800654189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AD87C628F34B3800654189 /* AppDelegate.swift */; };
 		71AD87C928F34B3800654189 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AD87C828F34B3800654189 /* SceneDelegate.swift */; };
 		71AD87CB28F34B3800654189 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AD87CA28F34B3800654189 /* MainTabBarViewController.swift */; };
@@ -50,6 +56,12 @@
 		712DD3CF28F3F9E000D7246F /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		7137B9E628F4472700E46218 /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
 		7137B9E728F4472700E46218 /* SingUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingUpViewController.xib; sourceTree = "<group>"; };
+		715E16EF28F485830001FF53 /* RecentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTableViewCell.swift; sourceTree = "<group>"; };
+		715E16F028F485830001FF53 /* RecentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentTableViewCell.xib; sourceTree = "<group>"; };
+		715E16F428F4A29A0001FF53 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		715E16F528F4A29A0001FF53 /* SearchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCollectionViewCell.xib; sourceTree = "<group>"; };
+		715E16F928F4AD9C0001FF53 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		715E16FA28F4AD9C0001FF53 /* ProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCollectionViewCell.xib; sourceTree = "<group>"; };
 		71AD87C328F34B3800654189 /* Flickr App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flickr App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AD87C628F34B3800654189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71AD87C828F34B3800654189 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +89,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		715E16EE28F485610001FF53 /* RecentTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				715E16EF28F485830001FF53 /* RecentTableViewCell.swift */,
+				715E16F028F485830001FF53 /* RecentTableViewCell.xib */,
+			);
+			path = RecentTableViewCell;
+			sourceTree = "<group>";
+		};
+		715E16F328F4A27A0001FF53 /* SearchCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				715E16F428F4A29A0001FF53 /* SearchCollectionViewCell.swift */,
+				715E16F528F4A29A0001FF53 /* SearchCollectionViewCell.xib */,
+			);
+			path = SearchCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		715E16F828F4AD870001FF53 /* ProfileCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				715E16F928F4AD9C0001FF53 /* ProfileCollectionViewCell.swift */,
+				715E16FA28F4AD9C0001FF53 /* ProfileCollectionViewCell.xib */,
+			);
+			path = ProfileCollectionViewCell;
+			sourceTree = "<group>";
+		};
 		71AD87BA28F34B3800654189 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +183,7 @@
 		71D6D42E28F408C00058C267 /* RecentScreen */ = {
 			isa = PBXGroup;
 			children = (
+				715E16EE28F485610001FF53 /* RecentTableViewCell */,
 				712DD3C628F3F9B400D7246F /* RecentViewController.swift */,
 				712DD3C728F3F9B400D7246F /* RecentViewController.xib */,
 			);
@@ -153,6 +193,7 @@
 		71D6D42F28F408CE0058C267 /* SearchScreen */ = {
 			isa = PBXGroup;
 			children = (
+				715E16F328F4A27A0001FF53 /* SearchCollectionViewCell */,
 				712DD3CA28F3F9C800D7246F /* SearchViewController.swift */,
 				712DD3CB28F3F9C800D7246F /* SearchViewController.xib */,
 			);
@@ -162,6 +203,7 @@
 		71D6D43028F408D90058C267 /* ProfileScreen */ = {
 			isa = PBXGroup;
 			children = (
+				715E16F828F4AD870001FF53 /* ProfileCollectionViewCell */,
 				712DD3CE28F3F9E000D7246F /* ProfileViewController.swift */,
 				712DD3CF28F3F9E000D7246F /* ProfileViewController.xib */,
 			);
@@ -239,9 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				712DD3D128F3F9E000D7246F /* ProfileViewController.xib in Resources */,
+				715E16FC28F4AD9C0001FF53 /* ProfileCollectionViewCell.xib in Resources */,
 				710BAA7A28F45AE2001826C4 /* GoogleService-Info.plist in Resources */,
+				715E16F728F4A29A0001FF53 /* SearchCollectionViewCell.xib in Resources */,
 				71AD87D328F34B3900654189 /* LaunchScreen.storyboard in Resources */,
 				712DD3C928F3F9B400D7246F /* RecentViewController.xib in Resources */,
+				715E16F228F485830001FF53 /* RecentTableViewCell.xib in Resources */,
 				712DD3C528F3F99C00D7246F /* AuthViewController.xib in Resources */,
 				712DD3CD28F3F9C800D7246F /* SearchViewController.xib in Resources */,
 				71AD87D028F34B3900654189 /* Assets.xcassets in Resources */,
@@ -260,10 +305,13 @@
 				712DD3C428F3F99C00D7246F /* AuthViewController.swift in Sources */,
 				710BAA8F28F46025001826C4 /* StorageManager.swift in Sources */,
 				7137B9E828F4472700E46218 /* SingUpViewController.swift in Sources */,
+				715E16F128F485830001FF53 /* RecentTableViewCell.swift in Sources */,
 				712DD3C828F3F9B400D7246F /* RecentViewController.swift in Sources */,
 				71AD87CB28F34B3800654189 /* MainTabBarViewController.swift in Sources */,
 				712DD3D028F3F9E000D7246F /* ProfileViewController.swift in Sources */,
 				71AD87C728F34B3800654189 /* AppDelegate.swift in Sources */,
+				715E16F628F4A29A0001FF53 /* SearchCollectionViewCell.swift in Sources */,
+				715E16FB28F4AD9C0001FF53 /* ProfileCollectionViewCell.swift in Sources */,
 				71AD87C928F34B3800654189 /* SceneDelegate.swift in Sources */,
 				710BAA8B28F45EC9001826C4 /* DatabaseManager.swift in Sources */,
 				710BAA8D28F45FB9001826C4 /* AuthManager.swift in Sources */,
