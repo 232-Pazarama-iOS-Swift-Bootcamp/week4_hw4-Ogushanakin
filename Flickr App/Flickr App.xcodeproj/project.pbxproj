@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		711C413E28F6071E00C850E6 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C413D28F6071E00C850E6 /* AuthenticationViewModel.swift */; };
+		71284E3D28F6D281002F0CA6 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71284E3C28F6D281002F0CA6 /* ProfileCell.swift */; };
+		71284E3F28F6D29B002F0CA6 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71284E3E28F6D29B002F0CA6 /* ProfileHeader.swift */; };
 		7130818228F5D835007F43F9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7130818128F5D835007F43F9 /* CustomTextField.swift */; };
 		71A7F3FB28F5846800043C2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A7F3FA28F5846800043C2C /* AppDelegate.swift */; };
 		71A7F3FD28F5846800043C2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A7F3FC28F5846800043C2C /* SceneDelegate.swift */; };
-		71A7F3FF28F5846800043C2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A7F3FE28F5846800043C2C /* ViewController.swift */; };
 		71A7F40228F5846800043C2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A7F40028F5846800043C2C /* Main.storyboard */; };
 		71A7F40428F5846900043C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A7F40328F5846900043C2C /* Assets.xcassets */; };
 		71A7F40728F5846900043C2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A7F40528F5846900043C2C /* LaunchScreen.storyboard */; };
@@ -42,11 +43,12 @@
 
 /* Begin PBXFileReference section */
 		711C413D28F6071E00C850E6 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		71284E3C28F6D281002F0CA6 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		71284E3E28F6D29B002F0CA6 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		7130818128F5D835007F43F9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		71A7F3F728F5846800043C2C /* Flickr App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flickr App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A7F3FA28F5846800043C2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71A7F3FC28F5846800043C2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71A7F3FE28F5846800043C2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71A7F40128F5846800043C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71A7F40328F5846900043C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71A7F40628F5846900043C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -87,6 +89,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71284E3928F6CA04002F0CA6 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				71A7F3FA28F5846800043C2C /* AppDelegate.swift */,
+				71A7F3FC28F5846800043C2C /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		71284E3A28F6CA1D002F0CA6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				71A7F40028F5846800043C2C /* Main.storyboard */,
+				71A7F40528F5846900043C2C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		71284E3B28F6CA2B002F0CA6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				71A7F40328F5846900043C2C /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		71284E4028F6D2A0002F0CA6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				71284E3C28F6D281002F0CA6 /* ProfileCell.swift */,
+				71284E3E28F6D29B002F0CA6 /* ProfileHeader.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		71A7F3EE28F5846800043C2C = {
 			isa = PBXGroup;
 			children = (
@@ -112,12 +149,9 @@
 				71A7F41228F5847F00043C2C /* View */,
 				71A7F41128F5847C00043C2C /* ViewModel */,
 				71A7F40E28F5847000043C2C /* Controller */,
-				71A7F3FA28F5846800043C2C /* AppDelegate.swift */,
-				71A7F3FC28F5846800043C2C /* SceneDelegate.swift */,
-				71A7F3FE28F5846800043C2C /* ViewController.swift */,
-				71A7F40028F5846800043C2C /* Main.storyboard */,
-				71A7F40328F5846900043C2C /* Assets.xcassets */,
-				71A7F40528F5846900043C2C /* LaunchScreen.storyboard */,
+				71284E3928F6CA04002F0CA6 /* Delegates */,
+				71284E3A28F6CA1D002F0CA6 /* Storyboards */,
+				71284E3B28F6CA2B002F0CA6 /* Assets */,
 				71A7F40828F5846900043C2C /* Info.plist */,
 				71C2660628F6A00F00ABC56E /* GoogleService-Info.plist */,
 			);
@@ -149,6 +183,7 @@
 		71A7F41228F5847F00043C2C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				71284E4028F6D2A0002F0CA6 /* Profile */,
 				71A7F42228F597BD00043C2C /* FeedCell.swift */,
 				7130818128F5D835007F43F9 /* CustomTextField.swift */,
 			);
@@ -279,14 +314,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71284E3D28F6D281002F0CA6 /* ProfileCell.swift in Sources */,
 				7130818228F5D835007F43F9 /* CustomTextField.swift in Sources */,
-				71A7F3FF28F5846800043C2C /* ViewController.swift in Sources */,
 				71A7F42A28F5A8DA00043C2C /* LoginController.swift in Sources */,
 				71A7F42328F597BD00043C2C /* FeedCell.swift in Sources */,
 				71A7F41B28F586C900043C2C /* SearchController.swift in Sources */,
 				71A7F41F28F586EF00043C2C /* NotificationController.swift in Sources */,
 				711C413E28F6071E00C850E6 /* AuthenticationViewModel.swift in Sources */,
 				71A7F41D28F586D200043C2C /* ImageSelectorController.swift in Sources */,
+				71284E3F28F6D29B002F0CA6 /* ProfileHeader.swift in Sources */,
 				71A7F3FB28F5846800043C2C /* AppDelegate.swift in Sources */,
 				71A7F42128F5870900043C2C /* ProfileController.swift in Sources */,
 				71A7F41928F586BD00043C2C /* FeedController.swift in Sources */,
