@@ -6,8 +6,11 @@
 //
 
 import UIKit
+import JGProgressHUD
 
 extension UIViewController {
+    
+    static let hud = JGProgressHUD(style: .dark)
     
     func configureGradientLayer() {
         let gradient = CAGradientLayer()
@@ -21,6 +24,16 @@ extension UIViewController {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
         present(alert, animated: true, completion: nil)
+    }
+    
+    func showLoader(_ show: Bool) {
+        view.endEditing(true)
+        
+        if show {
+            UIViewController.hud.show(in: view)
+        } else {
+            UIViewController.hud.dismiss()
+        }
     }
 }
 
