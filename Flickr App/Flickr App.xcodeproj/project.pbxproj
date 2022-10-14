@@ -15,6 +15,10 @@
 		71284E3D28F6D281002F0CA6 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71284E3C28F6D281002F0CA6 /* ProfileCell.swift */; };
 		71284E3F28F6D29B002F0CA6 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71284E3E28F6D29B002F0CA6 /* ProfileHeader.swift */; };
 		7130818228F5D835007F43F9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7130818128F5D835007F43F9 /* CustomTextField.swift */; };
+		713D266928F9B9E3007E6CA7 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 713D266828F9B9E3007E6CA7 /* IQKeyboardManagerSwift */; };
+		7145C1DC28F9CCF800B33343 /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7145C1DB28F9CCF800B33343 /* CommentController.swift */; };
+		7145C1DE28F9CE6500B33343 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7145C1DD28F9CE6500B33343 /* CommentCell.swift */; };
+		7145C1E028F9DBFA00B33343 /* CommentinputAccesoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7145C1DF28F9DBFA00B33343 /* CommentinputAccesoryView.swift */; };
 		715A1A8A28F8A97900AE618A /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A1A8928F8A97900AE618A /* PostService.swift */; };
 		71A7F3FB28F5846800043C2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A7F3FA28F5846800043C2C /* AppDelegate.swift */; };
 		71A7F3FD28F5846800043C2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A7F3FC28F5846800043C2C /* SceneDelegate.swift */; };
@@ -61,6 +65,9 @@
 		71284E3C28F6D281002F0CA6 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		71284E3E28F6D29B002F0CA6 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		7130818128F5D835007F43F9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		7145C1DB28F9CCF800B33343 /* CommentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
+		7145C1DD28F9CE6500B33343 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		7145C1DF28F9DBFA00B33343 /* CommentinputAccesoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentinputAccesoryView.swift; sourceTree = "<group>"; };
 		715A1A8928F8A97900AE618A /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		71A7F3F728F5846800043C2C /* Flickr App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flickr App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A7F3FA28F5846800043C2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +111,7 @@
 				71C2660E28F6A12200ABC56E /* FirebaseFirestore in Frameworks */,
 				71C2661028F6A12200ABC56E /* FirebaseFunctions in Frameworks */,
 				71C2661D28F6A1EB00ABC56E /* ActiveLabel in Frameworks */,
+				713D266928F9B9E3007E6CA7 /* IQKeyboardManagerSwift in Frameworks */,
 				71C2661428F6A12200ABC56E /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,6 +199,7 @@
 				71A7F41E28F586EF00043C2C /* NotificationController.swift */,
 				71A7F42028F5870900043C2C /* ProfileController.swift */,
 				71EE36E628F83252001F7543 /* UploadPostController.swift */,
+				7145C1DB28F9CCF800B33343 /* CommentController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -213,6 +222,8 @@
 				71A7F42228F597BD00043C2C /* FeedCell.swift */,
 				7130818128F5D835007F43F9 /* CustomTextField.swift */,
 				71BD5E9128F72C720010F0C7 /* UserCell.swift */,
+				7145C1DD28F9CE6500B33343 /* CommentCell.swift */,
+				7145C1DF28F9DBFA00B33343 /* CommentinputAccesoryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -283,6 +294,7 @@
 				71C2661928F6A1B200ABC56E /* JGProgressHUD */,
 				71C2661C28F6A1EB00ABC56E /* ActiveLabel */,
 				71C2661F28F6A3DC00ABC56E /* YPImagePicker */,
+				713D266828F9B9E3007E6CA7 /* IQKeyboardManagerSwift */,
 			);
 			productName = "Flickr App";
 			productReference = 71A7F3F728F5846800043C2C /* Flickr App.app */;
@@ -318,6 +330,7 @@
 				71C2661828F6A1B200ABC56E /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
 				71C2661B28F6A1EB00ABC56E /* XCRemoteSwiftPackageReference "ActiveLabel.swift" */,
 				71C2661E28F6A3DC00ABC56E /* XCRemoteSwiftPackageReference "YPImagePicker" */,
+				713D266728F9B9E3007E6CA7 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = 71A7F3F828F5846800043C2C /* Products */;
 			projectDirPath = "";
@@ -358,10 +371,12 @@
 				711C413E28F6071E00C850E6 /* AuthenticationViewModel.swift in Sources */,
 				71A7F41D28F586D200043C2C /* ImageSelectorController.swift in Sources */,
 				71284E3F28F6D29B002F0CA6 /* ProfileHeader.swift in Sources */,
+				7145C1DC28F9CCF800B33343 /* CommentController.swift in Sources */,
 				71A7F3FB28F5846800043C2C /* AppDelegate.swift in Sources */,
 				71A7F42128F5870900043C2C /* ProfileController.swift in Sources */,
 				71BD5E9228F72C720010F0C7 /* UserCell.swift in Sources */,
 				71A7F41928F586BD00043C2C /* FeedController.swift in Sources */,
+				7145C1E028F9DBFA00B33343 /* CommentinputAccesoryView.swift in Sources */,
 				71A7F41728F5857000043C2C /* MainTabController.swift in Sources */,
 				715A1A8A28F8A97900AE618A /* PostService.swift in Sources */,
 				712349F328F6F59800E6E6BE /* UserService.swift in Sources */,
@@ -373,6 +388,7 @@
 				71A7F3FD28F5846800043C2C /* SceneDelegate.swift in Sources */,
 				71CE924C28F97AD000143D09 /* PostViewModel.swift in Sources */,
 				712349F928F6FB0100E6E6BE /* ProfileHeaderViewModel.swift in Sources */,
+				7145C1DE28F9CE6500B33343 /* CommentCell.swift in Sources */,
 				71A7F42C28F5A8E900043C2C /* RegistrationController.swift in Sources */,
 				71EE36E928F84CAF001F7543 /* InputTextView.swift in Sources */,
 				712349F728F6F78500E6E6BE /* User.swift in Sources */,
@@ -595,6 +611,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		713D266728F9B9E3007E6CA7 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		71C2660828F6A12200ABC56E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -638,6 +662,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		713D266828F9B9E3007E6CA7 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 713D266728F9B9E3007E6CA7 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
 		71C2660928F6A12200ABC56E /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 71C2660828F6A12200ABC56E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
