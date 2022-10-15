@@ -9,7 +9,7 @@ import UIKit
 
 private let reuseIdentifier = "UserCell"
 
-class SearchController: UITableViewController {
+final class SearchController: UITableViewController {
     
     // MARK: - Properties
     
