@@ -26,7 +26,7 @@ final class CommentInputAccesoryView: UIView {
         return tv
     }()
     
-    private let postButton: UIButton = {
+    private(set) lazy var postButton: UIButton = {
         let button = UIButton()
         button.setTitle("Post", for: .normal)
         button.setTitleColor(.black, for: .normal)
