@@ -15,6 +15,8 @@
 		71284E3D28F6D281002F0CA6 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71284E3C28F6D281002F0CA6 /* ProfileCell.swift */; };
 		71284E3F28F6D29B002F0CA6 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71284E3E28F6D29B002F0CA6 /* ProfileHeader.swift */; };
 		7130818228F5D835007F43F9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7130818128F5D835007F43F9 /* CustomTextField.swift */; };
+		713160D728FC573A004CC533 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713160D628FC573A004CC533 /* Notification.swift */; };
+		713160D928FC5B93004CC533 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713160D828FC5B93004CC533 /* NotificationService.swift */; };
 		713D266928F9B9E3007E6CA7 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 713D266828F9B9E3007E6CA7 /* IQKeyboardManagerSwift */; };
 		7145C1DC28F9CCF800B33343 /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7145C1DB28F9CCF800B33343 /* CommentController.swift */; };
 		7145C1DE28F9CE6500B33343 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7145C1DD28F9CE6500B33343 /* CommentCell.swift */; };
@@ -69,6 +71,8 @@
 		71284E3C28F6D281002F0CA6 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		71284E3E28F6D29B002F0CA6 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		7130818128F5D835007F43F9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		713160D628FC573A004CC533 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		713160D828FC5B93004CC533 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		7145C1DB28F9CCF800B33343 /* CommentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
 		7145C1DD28F9CE6500B33343 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		7145C1DF28F9DBFA00B33343 /* CommentinputAccesoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentinputAccesoryView.swift; sourceTree = "<group>"; };
@@ -244,6 +248,7 @@
 				712349F628F6F78500E6E6BE /* User.swift */,
 				71CE924928F9768600143D09 /* Post.swift */,
 				71525ABB28FAA54E00BB5E1C /* Comment.swift */,
+				713160D628FC573A004CC533 /* Notification.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 				712349F228F6F59800E6E6BE /* UserService.swift */,
 				715A1A8928F8A97900AE618A /* PostService.swift */,
 				71525AB928FA982300BB5E1C /* CommentService.swift */,
+				713160D828FC5B93004CC533 /* NotificationService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -389,6 +395,7 @@
 				71A7F42128F5870900043C2C /* ProfileController.swift in Sources */,
 				71BD5E9228F72C720010F0C7 /* UserCell.swift in Sources */,
 				71A7F41928F586BD00043C2C /* FeedController.swift in Sources */,
+				713160D728FC573A004CC533 /* Notification.swift in Sources */,
 				7145C1E028F9DBFA00B33343 /* CommentinputAccesoryView.swift in Sources */,
 				71A7F41728F5857000043C2C /* MainTabController.swift in Sources */,
 				715A1A8A28F8A97900AE618A /* PostService.swift in Sources */,
@@ -397,6 +404,7 @@
 				71A7F42528F598C800043C2C /* Extensions.swift in Sources */,
 				71CE924A28F9768600143D09 /* Post.swift in Sources */,
 				712349F528F6F5D000E6E6BE /* Constants.swift in Sources */,
+				713160D928FC5B93004CC533 /* NotificationService.swift in Sources */,
 				71C2662228F6A5F200ABC56E /* ImageUploader.swift in Sources */,
 				71C2662428F6A60E00ABC56E /* AuthService.swift in Sources */,
 				71A7F3FD28F5846800043C2C /* SceneDelegate.swift in Sources */,
