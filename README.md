@@ -1,3 +1,25 @@
+# 📲 Flickr App
+
+A mobile application that search and share photo.
+
+## 🛠 
+
+- MVVM design pattern use
+- Programmatic UI, no storyboard.
+- Firebase Auth, Storage
+- SD Web Image
+- IQKeyboardManager
+- Flickr API
+
+## 📸 Screenshoots 
+
+<img width="482" alt="Ekran Resmi 2022-10-17 18 57 23" src="https://user-images.githubusercontent.com/55364051/196227390-e363e68c-f824-4c71-a417-5ee272e7c7fb.png">
+
+
+
+
+
+
 # Pazarama iOS Bootcamp - Hafta 4 - Ödev
 
 ## Flickr App
