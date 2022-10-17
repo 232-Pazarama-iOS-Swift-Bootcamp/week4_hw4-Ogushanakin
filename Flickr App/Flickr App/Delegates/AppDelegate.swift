@@ -12,6 +12,7 @@ import IQKeyboardManagerSwift
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var imagesCacheArray = NSCache<NSString, UIImage>()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -35,6 +36,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+    // MARK: - Shared Instance
+    class func getAppDelegateInstance() -> AppDelegate?
+    {
+        let appDelegateRef = UIApplication.shared.delegate as? AppDelegate
+        return appDelegateRef
+    }
 
 }
 

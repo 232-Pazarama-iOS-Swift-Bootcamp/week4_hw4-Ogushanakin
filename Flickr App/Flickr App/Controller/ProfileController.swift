@@ -147,6 +147,9 @@ extension ProfileController: ProfileHeaderDelegate {
                 NotificationService.uploadNotifications(toUid: user.uid,
                                                         fromUser: currentUser,
                                                         type: .follow)
+                
+                
+                PostService.updateUserFeedAfterFollowing(user: user)
             }
         }
     }
