@@ -13,7 +13,8 @@ A mobile application that search and share photo.
 
 ## 📸 Screenshoots 
 
-<img width="482" alt="Ekran Resmi 2022-10-17 18 57 23" src="https://user-images.githubusercontent.com/55364051/196227390-e363e68c-f824-4c71-a417-5ee272e7c7fb.png">
+<img width="482" alt="Ekran Resmi 2022-10-17 18 57 23" src="https://user-images.githubusercontent.com/55364051/196227672-76ae131f-dad9-40b3-99db-82f8140c3647.png">
+
 
 
 
